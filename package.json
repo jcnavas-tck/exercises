@@ -1,0 +1,57 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "Pablo Turrero's exercises",
+  "main": "webpack.config.js",
+  "browserslist": [
+    "defaults",
+    "not ie < 11",
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ],
+  "dependencies": {
+    "eslint-config-google": "^0.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "autoprefixer": "^10.3.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.1.1",
+    "prettier": "^2.3.2",
+    "sass-loader": "^12.1.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-prettier": "^1.2.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "cp index.html public/index.html",
+    "dev": "npm run copy && webpack --mode development",
+    "watch": "webpack --watch",
+    "start": "webpack serve --hot",
+    "serve": "webpack serve --hot",
+    "lint:js": "eslint 'assets/js/**/*.js'",
+    "lint:js:fix": "eslint 'assets/js/**/*.js' --fix",
+    "lint:scss": "stylelint 'assets/css/**/*.scss'",
+    "lint:scss:fix": "stylelint 'assets/css/**/*.scss' --fix",
+    "lint": "npm run lint:js && npm run lint:scss",
+    "lint:fix": "npm run lint:js:fix && npm run lint:scss:fix",
+    "build": "npm run copy && webpack --mode production",
+    "qa": "webpack --mode qa"
+  },
+  "author": "Juan Carlos Navas",
+  "license": "ISC"
+}
