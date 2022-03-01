@@ -6,6 +6,8 @@
 |----------------|------------------------------------------------------------
 | **Readme**       | Siguiendo el patrón de este documento, TODO.md,  y la síntaxis para generar estilos de previsualización editar el README.md con la info que te ofreceré vía email.
 | **CSS**       | Crear en assets y dentro de 'css' tres carpetas para BEM, exactamente una para cada tipo (blocks, element y modules) y dejarlas vacías. 
+| **GIT**       | Crear una nueva rama llamada 'integration'
+| **GIT**       | Conectar en nueva rama 'integration' y hacer un merge de main
 | **CSS**       | *Pendiente actualizar tareas*  
 
 
