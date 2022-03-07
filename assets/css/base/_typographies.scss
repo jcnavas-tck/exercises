@@ -1,82 +1,78 @@
+%t-body-1,
+.t-body-1 {
+  font: normal 500 16px/24px $f-primary;
+}
+
+%t-body-2,
+.t-body-2 {
+  font: normal 400 14px/20px $f-secondary;
+}
+
 %t-h1,
 .t-h1 {
-  font: $f-bold rem(29) / rem(40) $f-heading;
+  font: $f-bold rem(29) / rem(40) $f-primary;
   letter-spacing: -1%;
-
-  @include tablet {
-    font-size: rem(47);
-    line-height: rem(56);
-  }
 }
 
 %t-h2,
 .t-h2 {
-  font: $f-bold rem(29) / rem(40) $f-heading;
+  font: $f-bold rem(29) / rem(40) $f-primary;
   letter-spacing: -1%;
 }
 
 %t-h3,
 .t-h3 {
-  font: $f-bold rem(23) / rem(32) $f-heading;
+  font: $f-bold rem(23) / rem(32) $f-primary;
+  letter-spacing: -1%;
+}
+%t-h4,
+.t-h4 {
+  font: $f-bold rem(23) / rem(32) $f-primary;
+  letter-spacing: -1%;
+}
+%t-h5,
+.t-h5 {
+  font: $f-bold rem(23) / rem(32) $f-primary;
   letter-spacing: -1%;
 }
 
 %t-h6,
 .t-h6 {
-  font: $f-bold rem(14) / rem(24) $f-heading;
-  letter-spacing: -1%;
-}
-
-%t-text,
-.t-text {
-  font: $f-light rem(16) / rem(24) $f-text-light;
-  letter-spacing: -1%;
-
-  @include tablet {
-    font-size: rem(18);
-    letter-spacing: 0;
-  }
-
-  p {
-    font-weight: 200;
-  }
-}
-
-%t-text-2,
-.t-text-2 {
-  font: $f-regular rem(16) / rem(16) $f-text-regular;
-  letter-spacing: 1%;
-}
-
-%t-small,
-.t-small {
-  font: $f-regular rem(12) / rem(16) $f-text-regular;
+  font: $f-bold rem(14) / rem(24) $f-primary;
   letter-spacing: -1%;
 }
 
 %t-button,
 .t-button {
-  font: $f-medium rem(16) / rem(24) $f-button;
+  font: $f-medium rem(16) / rem(24) $f-secondary;
   letter-spacing: 4%;
 }
 
-%t-label,
+%t-caption,
 .t-label {
-  font: $f-regular rem(12) / rem(17) $f-text-regular;
+  font: $f-regular rem(12) / rem(17) $f-primary;
   letter-spacing: -1%;
 }
 
+%t-overline,
+.t-label {
+  font: $f-regular rem(12) / rem(17) $f-primary;
+  letter-spacing: -1%;
+}
+
+
+// PREGUNTAR SI HAY QUE CONSERVAR LAS CLASES QUE SIGUEN
 .t-uppercase {
   text-transform: uppercase;
 }
 
 strong,
 .t-bold {
-  font-family: $f-heading;
+  font-family: $f-primary;
 }
 
 .t-regular {
-  font-family: $f-text-regular;
+  font-family: $f-primary;
 }
 
 .t-center {

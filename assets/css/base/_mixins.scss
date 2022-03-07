@@ -1,4 +1,4 @@
-// Breackpoints
+// Breakpoints
 @mixin only-mobile {
   @media (max-width: #{$bp-mobile}) {
     @content;
