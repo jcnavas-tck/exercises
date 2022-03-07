@@ -1,0 +1,65 @@
+// Breackpoints
+@mixin only-mobile {
+  @media (max-width: #{$bp-mobile}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (min-width: #{$bp-mobile}) {
+    @content;
+  }
+}
+
+@mixin mobile-landscape {
+  @media all and (max-width: #{$bp-mobile}) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin only-mobile-tablet {
+  @media (max-width: #{$bp-tablet - 1}) {
+    @content;
+  }
+}
+
+@mixin only-tablet {
+  @media (max-width: #{$bp-desktop}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$bp-tablet}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$bp-desktop}) {
+    @content;
+  }
+}
+
+@mixin medium-desktop {
+  @media (min-width: #{$bp-desktop-medium}) {
+    @content;
+  }
+}
+
+@mixin large-desktop {
+  @media (min-width: #{$bp-desktop-large}) {
+    @content;
+  }
+}
+
+// Units
+/* REM conversor,
+  Use:
+    .element {
+      font-size: rem(20);
+    }
+*/
+@function rem($size) {
+  @return #{$size / $f-base}rem;
+}
