@@ -1,18 +1,26 @@
 // Colours
-$c-primary: #ffc72a;
-$c-secondary: #002f87;
-$c-tertiary: #ccd5e7;
+$c-rojo: #b73139;
+$c-oscuro: #701e2c;
+$c-negro: #2d3133;
+$c-gris: #7b868c;
+$c-gris-medium: #dde1e3;
+$c-gris-light: #efeeee;
+$c-blanco: #fff;
 
-$c-black: #000;
-$c-white: #fff;
-$c-grey: #d8d8d8;
+$c-peach: #f7394e;
+$c-salmon: #ff9080;
+$c-morado: #731d48;
+$c-morado-light: #d9aae0;
+$c-naranja: #ff5d3f;
+$c-naranja-light: #ffd4bf;
+$c-amarillo: #fdd074;
+$c-amarillo-light: #fee7bb;
 
-$c-bg: $c-white;
-$c-text: $c-black;
-$c-text--invert: $c-white;
-$c-disabled: $c-grey;
-$c-danger: #ae0a3f;
-$c-border: $c-tertiary;
+$c-bg: $c-blanco;
+$c-text: $c-negro;
+$c-text--invert: $c-blanco;
+$c-text--disabled: $c-gris;
+$c-disabled: $c-gris-medium;
 
 // Fonts
 $f-base: 16;
