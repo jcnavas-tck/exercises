@@ -30,9 +30,11 @@ $f-medium: 500;
 $f-semibold: 600;
 $f-bold: 700;
 
-// qqqq ¿ESTÁ BIEN? (quité muchas cosas que igual eran importantes)
-$f-primary: 'Satoshi', sans-serif;
-$f-secondary: 'Inter', sans-serif;
+$f-text: 'Satoshi-Regular';
+$f-text-medium: 'Satoshi-Medium';
+$f-text-bold: 'Satoshi-Bold';
+$f-headline: 'Satoshi-Light';
+$f-button: 'Inter';
 
 // Layout
 $l-wrapper: 1366px;

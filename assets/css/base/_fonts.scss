@@ -1,0 +1,42 @@
+$satoshi-font-path: '../../font' !default;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('#{$satoshi-font-path}/Satoshi-Light.woff2') format('woff2'),
+    url('#{$satoshi-font-path}/Satoshi-Light.woff') format('woff'),
+    url('#{$satoshi-font-path}/Satoshi-Light.ttf') format('truetype');
+  font-weight: $f-light;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('#{$satoshi-font-path}/Satoshi-Regular.woff2') format('woff2'),
+    url('#{$satoshi-font-path}/Satoshi-Regular.woff') format('woff'),
+    url('#{$satoshi-font-path}/Satoshi-Regular.ttf') format('truetype');
+  font-weight: $f-regular;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('#{$satoshi-font-path}/Satoshi-Medium.woff2') format('woff2'),
+    url('#{$satoshi-font-path}/Satoshi-Medium.woff') format('woff'),
+    url('#{$satoshi-font-path}/Satoshi-Medium.ttf') format('truetype');
+  font-weight: $f-medium;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('#{$satoshi-font-path}/Satoshi-Bold.woff2') format('woff2'),
+    url('#{$satoshi-font-path}/Satoshi-Bold.woff') format('woff'),
+    url('#{$satoshi-font-path}/Satoshi-Bold.ttf') format('truetype');
+  font-weight: $f-bold;
+  font-display: swap;
+  font-style: normal;
+}

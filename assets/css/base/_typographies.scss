@@ -1,80 +1,61 @@
 %t-body-1,
 .t-body-1 {
-  font: normal 500 16px/24px $f-primary;
+  font: normal 500 16px/24px $f-headline;
 }
 
 %t-body-2,
 .t-body-2 {
-  font: normal 400 14px/20px $f-secondary;
+  font: normal 400 14px/20px $f-button;
 }
 
 %t-h1,
 .t-h1 {
-  font: $f-bold rem(29) / rem(40) $f-primary;
+  font: $f-bold rem(29) / rem(40) $f-headline;
   letter-spacing: -1%;
 }
 
 %t-h2,
 .t-h2 {
-  font: $f-bold rem(29) / rem(40) $f-primary;
+  font: $f-bold rem(29) / rem(40) $f-headline;
   letter-spacing: -1%;
 }
 
 %t-h3,
 .t-h3 {
-  font: $f-bold rem(23) / rem(32) $f-primary;
+  font: $f-bold rem(23) / rem(32) $f-headline;
   letter-spacing: -1%;
 }
 %t-h4,
 .t-h4 {
-  font: $f-bold rem(23) / rem(32) $f-primary;
+  font: $f-bold rem(23) / rem(32) $f-headline;
   letter-spacing: -1%;
 }
 %t-h5,
 .t-h5 {
-  font: $f-bold rem(23) / rem(32) $f-primary;
+  font: $f-bold rem(23) / rem(32) $f-headline;
   letter-spacing: -1%;
 }
 
 %t-h6,
 .t-h6 {
-  font: $f-bold rem(14) / rem(24) $f-primary;
+  font: $f-bold rem(14) / rem(24) $f-headline;
   letter-spacing: -1%;
 }
 
 %t-button,
 .t-button {
-  font: $f-medium rem(16) / rem(24) $f-secondary;
+  font: $f-medium rem(16) / rem(24) $f-button;
   letter-spacing: 4%;
 }
 
 %t-caption,
 .t-label {
-  font: $f-regular rem(12) / rem(17) $f-primary;
+  font: $f-regular rem(12) / rem(17) $f-headline;
   letter-spacing: -1%;
 }
 
 %t-overline,
 .t-label {
-  font: $f-regular rem(12) / rem(17) $f-primary;
+  font: $f-regular rem(12) / rem(17) $f-headline;
   letter-spacing: -1%;
-}
-
-
-// PREGUNTAR SI HAY QUE CONSERVAR LAS CLASES QUE SIGUEN
-.t-uppercase {
-  text-transform: uppercase;
-}
-
-strong,
-.t-bold {
-  font-family: $f-primary;
-}
-
-.t-regular {
-  font-family: $f-primary;
-}
-
-.t-center {
-  text-align: center;
 }
