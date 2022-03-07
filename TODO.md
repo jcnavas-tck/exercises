@@ -10,5 +10,6 @@
 | **GIT**       | Conectar en nueva rama 'integration' y hacer un merge de master
 | **Exercise 1** | 1). En app.scss tienes las variables de Cesur. Habrá que migrar las variables al archivo que corresponda y solo poner las variables necesarias de IMF y eliminar las originales de Cesur y evitar crear duplicados.
 |               | 2). En app.scss tienes las tipografías de Cesur. Habrá que migrar los estilos al archivo que corresponda (en este caso crear uno nuevo llamados 'tipogaphies' e incluirlo dentro de la carpeta 'base') y solo poner los estilos necesarios de IMF y eliminar las originales de Cesur y evitar crear duplicados.
-|               | 3). En index.html he pegado el uikit de Cesur. Primero habría que repasar las tabulaciones del código y después actualizar ese template con el material de IMF y eliminar lo que sea imprescidible, es decir, todo lo de Cesur y no nos sirva para IMF.
-|               | 4). En index.html he pegado el uikit de Cesur. Primero habría que repasar las tabulaciones del código y después actualizar ese template con el material de IMF y eliminar lo que sea imprescidible, es decir, todo lo de Cesur y no nos sirva para IMF.
+|               | 3). Comprobar que todas las nuevas páginas tienen los imports en app.scss y que la compilación de css mo da ningún error.
+|               | 4). En index.html he pegado el uikit de Cesur. Primero habría que repasar las tabulaciones del código.
+|               | 5). En index.html actualizar ese template con el material de IMF y eliminar lo que sea imprescidible, es decir, todo lo de Cesur y no nos sirva para IMF.
